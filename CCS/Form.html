@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+
+    <div class="page-bg">
+
+        <div class="card">
+
+            <h1>Contact us!</h1>
+            <p class="subtitle">Got something to say? Fire away!</p>
+
+            <form action="https://Elecciones2026.com" method="POST" class="contact-form">
+
+                <input type="text" name="nombre" placeholder="First name *" required>
+
+                <input type="text" name="apellido" placeholder="Last name *" required>
+
+                <div class="input-icon">
+                    <input type="email" name="correo" placeholder="Email address *" required>
+                    <span class="icon">@</span>
+                </div>
+
+                <select name="mensaje" required>
+                    <option hidden>What's your message about? *</option>
+                    <option>Garfield</option>
+                    <option>Courage</option>
+                    <option>Scooby</option>
+                </select>
+
+                <textarea name="comentario" rows="4" placeholder="Fire away! *" required></textarea>
+
+                <button type="submit">Send my message</button>
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+</body>
+</html>
