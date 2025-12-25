@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: 40px auto;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.date {
+    color: #777;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+table.billboard {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+
+table.billboard thead tr {
+    background: #003bb3;
+    color: white;
+}
+
+table.billboard th {
+    padding: 12px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+
+tbody td {
+    padding: 15px 10px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+    text-align: center;
+}
+
+td.pos {
+    font-size: 32px;
+    font-weight: bold;
+    width: 90px;
+}
+
+.cover {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+
+.song {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.artist {
+    font-size: 15px;
+    color: #555;
+    text-align: left;
+}
+
+.col-info, td:nth-child(3) {
+    text-align: left !important;
+}
+
+.tag {
+    font-size: 12px;
+    padding: 3px 6px;
+    margin-bottom: 5px;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.tag.new {
+    background: #ffe600;
+}
+
+.col-stat {
+    width: 100px;
+}

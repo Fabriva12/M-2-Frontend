@@ -1,0 +1,94 @@
+h1{
+    text-align: center;
+    margin: 15px auto 0 auto;
+    font-size: 5em;
+    line-height: 1em;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-family: "Degular Display", Helvetica, Arial,     sans-serif;
+    unicode-bidi: isolate;
+    width: 600px;
+}
+h2{
+    font-family: Inter, Helvetica, arial, sans-serif;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+    height: 2em;
+    line-height: 1em;
+    margin-top: 1.5em;
+    text-align: center;
+    width: 1500px;
+}
+.a1{
+    font-family: Inter, Helvetica, arial, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    width: 1500px;
+    }
+.social-icons{
+    column-gap: 0.5em;
+    display: grid;
+    font-weight: 400;
+    grid-template-columns: 1em 1em 1em;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.social-icons i {
+    transition: 0.3s;
+    color: #333;
+}
+
+.social-icons i:hover {
+    color: #007bff;
+    transform: scale(1.3);
+}
+.plant{
+    text-align: center;
+    display: block;
+    margin: 1em auto;
+    max-width: 100%;
+    height: auto;
+}
+.texto {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Inter, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.card {
+    float: right;
+    width: 300px;
+    background-color: rgb(255, 191, 110);
+    padding: 24px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px 0 20px 20px;
+    box-sizing: border-box;
+}
+
+.card h3 {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card button {
+    background-color: #333;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.25s ease;
+}
+
+.card button:hover {
+    background-color: black;
+    transform: translateY(-2px);
+}
