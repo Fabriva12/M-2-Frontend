@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f9bd;
+
+}
+div{
+    background-color: #93c49d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #c3d17e;
+    
+}
+label{
+    margin-top: 10px;
+    font-weight: bold;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
