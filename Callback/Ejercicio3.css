@@ -1,0 +1,13 @@
+p{
+    font-size: 1rem;
+    color: black;
+    max-width: 20rem;
+}
+button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightgray;
+}
