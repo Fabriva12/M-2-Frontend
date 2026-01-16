@@ -1,0 +1,33 @@
+h1{font-family: 'Gill Sans';
+    text-align: center;
+    color: rgb(41, 75, 92);
+    text-shadow: 2px 2px 4px #868181;
+}
+p{
+    font-family: 'Arial';
+    font-size: 20px;
+    text-align: center;
+    color: rgb(40, 57, 84);
+}
+input{
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+    width: 35%;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(41, 75, 92);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(65, 95, 113);
+    font-size: 1.1em;
+}
