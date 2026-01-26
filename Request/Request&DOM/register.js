@@ -25,6 +25,9 @@ const registerUser = () => {
             })));
             message.textContent = `✅ Usuario añadido correctamente su id es ${id}`;
             message.style.color = 'green';
+            setTimeout(() => {
+                window.location.href = "miPerfil.html";
+            }, 1000);
         })
         .catch(error =>
             console.error('Error adding user:', error));

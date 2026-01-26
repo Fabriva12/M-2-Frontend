@@ -4,9 +4,9 @@ const logoutBtn = document.getElementById("logoutBtn");
 
 const userSession = JSON.parse(localStorage.getItem("loggedUser"));
 
-// if (!userSession) {
-//     window.location.href = "login.html";
-// }
+if (!userSession) {
+    window.location.href = "login.html";
+}
 
 profileContainer.innerHTML = `
     <div class="card">
