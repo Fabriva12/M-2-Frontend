@@ -1,0 +1,52 @@
+.page-bg {
+    background: #bdbdae;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem;
+}
+
+.card {
+    background: #ffffff;
+    width: 31.3rem;
+    padding: 2.5rem;
+    border-radius: 1.3rem;
+    box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.1);
+}
+
+button {
+    width: 11.3rem;
+    padding: 0.8rem;
+    background: #bdbdae;
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #a2805a;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #1d1d1d;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 0.9rem;
+    border: none;
+    background: #f1f4f9;
+    border-radius: 0.5rem;
+    outline: none;
+    margin-bottom: 1.3rem;
+    font-size: 0.9rem;
+}

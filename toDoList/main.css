@@ -1,0 +1,118 @@
+nav {
+    font-family: 'Handlee', cursive;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #bdbdae;
+    padding: 1rem 1.5rem;
+    color: rgb(17, 17, 17);
+    border-radius: 0.7rem;
+}
+
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+
+nav>div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+nav a {
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #a6a177;
+}
+
+
+.logout-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.logout-button img {
+    transition: transform 0.2s;
+}
+
+.logout-button:hover img {
+    transform: scale(1.1);
+}
+
+
+body {
+    background: #f1f1f1;
+    font-family: 'Handlee', cursive;
+    min-height: 100vh;
+}
+
+
+.fondo {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 1rem;
+}
+
+
+.nota1 {
+    background: #cececc;
+    padding: 2rem;
+    max-width: 700px;
+    border-radius: 0.8rem;
+    box-shadow: 0 0.6rem 1.4rem rgba(0, 0, 0, 0.15);
+    transform: rotate(-1deg);
+}
+
+.nota1 h2 {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+
+.nota2,
+.nota3 {
+    width: 220px;
+    padding: 1.2rem;
+    margin: 2rem;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.1rem;
+    border-radius: 0.6rem;
+    box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.nota2 {
+    background: #bdbdae;
+    transform: rotate(1.5deg);
+}
+
+.nota3 {
+    background: #bdbdae;
+    transform: rotate(-1.5deg);
+}
+
+.nota2:hover,
+.nota3:hover {
+    transform: scale(1.05);
+}
