@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+    <link rel="stylesheet" href="createChore.css">
+    <script src="createChore.js" defer></script>
+
+</head>
+
+<body>
+    <div class="page-bg">
+
+        <div class="card">
+
+            <h1>Nueva Tarea</h1>
+
+            <form class="create-form">
+                <input type="text" name="tarea" placeholder="Tarea " required>
+                <select name="categoria" required>
+                    <option hidden>Elige una categoría</option>
+                    <option>Trabajo</option>
+                    <option>Personal</option>
+                    <option>Academico</option>
+                </select>
+
+                <textarea name="comentario" rows="4" placeholder="Comentario " required></textarea>
+
+                <button type="submit">Crear Tarea</button>
+
+            </form>
+            <p id="mensaje"></p>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,5 +1,5 @@
 .page-bg {
-    background: #3f51f7;
+    background: #bdbdae;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -24,11 +24,16 @@ h1 {
     color: #1d1d1d;
 }
 
+.subtitle {
+    margin: 10px 0 30px 0;
+    color: #5f6368;
+    font-size: 14px;
+}
 
 
-.contact-form input,
-.contact-form select,
-.contact-form textarea {
+.create-form input,
+.create-form select,
+.create-form textarea {
     width: 100%;
     padding: 14px;
     border: none;
@@ -40,22 +45,11 @@ h1 {
 }
 
 
-.input-icon {
-    position: relative;
-}
-
-.input-icon .icon {
-    position: absolute;
-    right: 15px;
-    top: 13px;
-    color: #8b8b8b;
-    font-size: 16px;
-}
 
 button {
     width: 180px;
     padding: 12px;
-    background: #3f51f7;
+    background: #bdbdae;
     color: white;
     border: none;
     border-radius: 6px;
@@ -66,5 +60,5 @@ button {
 }
 
 button:hover {
-    background: #cbcbcc;
+    background: #a2805a;
 }

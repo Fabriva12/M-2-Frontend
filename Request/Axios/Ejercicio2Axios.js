@@ -10,7 +10,7 @@ const registerUser = () => {
     const userEmail = email.value;
     const userPassword = password.value;
 
-    axios.post('https://api.restful-api.dev/objects', {
+    axios.post('https://api.restful-api.dev/objects', { adapter: httpAdapter }, {
         name: userName,
         email: userEmail,
         password: userPassword,

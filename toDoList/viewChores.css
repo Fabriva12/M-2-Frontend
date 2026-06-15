@@ -1,0 +1,111 @@
+nav {
+    font-family: 'Handlee', cursive;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #bdbdae;
+    padding: 1rem 1.5rem;
+    color: rgb(17, 17, 17);
+    border-radius: 0.7rem;
+}
+
+
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+
+nav>div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+nav a {
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #a6a177;
+}
+
+
+.logout-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.logout-button img {
+    transition: transform 0.2s;
+}
+
+.logout-button:hover img {
+    transform: scale(1.1);
+}
+
+button {
+    padding: 0.7rem 1.2rem;
+    background-color: #d7c7af;
+    color: white;
+    border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.card {
+    width: 20rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.empty-state {
+    text-align: center;
+    padding: 3rem;
+    color: #555;
+}
+
+.empty-state h3 {
+    margin-bottom: 0.5rem;
+}
+
+.empty-state p {
+    font-size: 0.9rem;
+}
+
+body {
+    background: #f1f1f1;
+    font-family: 'Handlee', cursive;
+    min-height: 100vh;
+}
